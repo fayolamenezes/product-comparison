@@ -3,7 +3,6 @@ import ProductCard from '../components/ProductCard';
 import Carousel from '../components/Carousel';
 import Comparison from '../components/Comparison';
 import productsData from '../data/products.json';
-import '../styles/globals.css';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
