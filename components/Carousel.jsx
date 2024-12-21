@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
-import './Carousel.css';  // Adjust the path according to your directory structure
+import './Carousel.module.css';  // Adjust the path according to your directory structure
 
 export default function Carousel({ items }) {
   console.log(items); // Log items to check the data passed

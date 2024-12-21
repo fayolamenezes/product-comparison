@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './Comparison.css'; // Link to external stylesheet
+import './Comparison.module.css'; // Link to external stylesheet
 
 export default function Comparison({ products }) {
   // Ensure products is an array before using it
