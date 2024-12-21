@@ -1,0 +1,35 @@
+[
+    {
+      "id": 1,
+      "name": "Samsung Galaxy S21",
+      "price": 9999,
+      "description": "The Samsung Galaxy S21 features a 6.2-inch display, triple camera system, and powerful performance.",
+      "image": "/images/samsung-galaxy-s21.jpg",
+      "category": "Electronics"
+    },
+    {
+      "id": 2,
+      "name": "Levi's 511 Slim Fit Jeans",
+      "price": 14999,
+      "description": "Classic slim-fit jeans by Levi's, designed for comfort and style.",
+      "image": "/images/levis-511-jeans.jpg",
+      "category": "Fashion"
+    },
+    {
+      "id": 3,
+      "name": "Dyson V11 Torque Drive Vacuum",
+      "price": 12999,
+      "description": "The Dyson V11 Torque Drive is an advanced cordless vacuum cleaner with powerful suction and long battery life.",
+      "image": "/images/dyson-v11-vacuum.jpg",
+      "category": "Home"
+    },
+    {
+      "id": 4,
+      "name": "Apple MacBook Pro 13-inch",
+      "price": 24999,
+      "description": "The 13-inch MacBook Pro comes with Apple's M1 chip, Retina display, and a sleek design, perfect for professionals.",
+      "image": "/images/macbook-pro-13.jpg",
+      "category": "Electronics"
+    }
+  ]
+  

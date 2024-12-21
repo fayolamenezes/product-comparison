@@ -1,0 +1,52 @@
+/* Product Card Container */
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 250px;         /* Fixed width for the card */
+    height: 350px;        /* Fixed height for the card */
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: transform 0.3s ease;
+    overflow: hidden;     /* Ensure overflow is hidden to prevent stretching */
+  }
+  
+  /* Image styling to fit within the fixed container */
+  .product-image {
+    width: 100%;          /* Make the image fill the container's width */
+    height: 200px;        /* Fixed height for the image */
+    object-fit: cover;    /* Ensures image covers the container without stretching */
+    border-radius: 8px;   /* Optional: add rounded corners */
+  }
+  
+  /* Text styling for product name, description, and price */
+  .product-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .product-price {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 5px;
+  }
+  
+  .product-description {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  /* Container for the list of products */
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;            /* Space between product cards */
+    justify-content: center;
+  }
+  

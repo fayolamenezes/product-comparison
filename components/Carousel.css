@@ -1,0 +1,81 @@
+/* General Styles for Carousel */
+.slick-slide img {
+    width: 100%;
+    max-width: 350px; /* Adjust to desired size */
+    height: auto;
+    margin: 0 auto;
+    object-fit: cover; /* Ensure images are cropped without distortion */
+  }
+  
+  .slick-carousel {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative; /* To ensure arrows appear above the carousel */
+  }
+  
+  /* Custom Arrows Style */
+  .slick-prev, .slick-next {
+    background-color: #333; /* Background color of the arrows */
+    color: white;  /* Arrow color */
+    border-radius: 50%;  /* Round shape for the arrows */
+    padding: 10px;  /* Size of the arrows */
+    font-size: 16px;  /* Size of the arrows */
+    z-index: 10;  /* Ensure arrows are above the carousel */
+  }
+  
+  /* Position the arrows */
+  .slick-prev {
+    left: 10px; /* Distance from the left */
+  }
+  
+  .slick-next {
+    right: 10px; /* Distance from the right */
+  }
+  
+  /* Style arrows when hovering */
+  .slick-prev:hover, .slick-next:hover {
+    background-color: #555;  /* Change background on hover */
+    cursor: pointer;  /* Change cursor on hover */
+  }
+  
+  /* Additional Styles for better visual appearance */
+  .slick-prev, .slick-next {
+    font-size: 24px; /* Adjust the font size of the arrows */
+    line-height: 1;
+  }
+  
+  .slick-prev {
+    transform: rotate(180deg); /* Rotate previous arrow */
+  }
+  
+  /* Dot styles */
+  .slick-dots {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    z-index: 5; /* Ensure dots are above the carousel */
+  }
+  
+  .slick-dots li button {
+    background-color: #333;  /* Dot color */
+    border-radius: 50%;  /* Circular dot shape */
+    width: 10px;
+    height: 10px;
+  }
+  
+  .slick-dots li.slick-active button {
+    background-color: #ff6600;  /* Active dot color */
+  }
+  
+  /* Slick track styling */
+  .slick-track {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slick-slide {
+    transition: transform 0.5s ease;
+  }
+  
